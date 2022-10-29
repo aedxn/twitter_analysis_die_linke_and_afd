@@ -2,7 +2,7 @@ import tweepy
 import configparser
 import pandas as pd
 
-# read config
+# read config (upload a config.ini file with your keys following the form of my config.ini file)
 config = configparser.ConfigParser()
 config.read('config.ini')
 
