@@ -8,4 +8,5 @@ I obtained my data by connecting to Twitter's API and using python's Tweepy libr
 So far using this data I then analyse:
 
 1. The hashtags and topics of both parties
-2. (more to come)
+2. Word clouds 
+3. (more to come)
