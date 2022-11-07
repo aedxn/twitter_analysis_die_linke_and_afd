@@ -1,9 +1,9 @@
 # twitter_analysis_die_linke_and_afd
 **Disclamer**: Work in progress
 
-This project analyses tweets of politicians of the most left, "Die Linke", and most right party, "AfD", of the German bundestag. 
+This project analyses tweets of politicians of the most left, "Die Linke", and most right party, "AfD", of the German bundestag and implements a supervised learning algorithm to classify tweets on the political spectrum as either left or right.
 
-I obtained my data by connecting to Twitter's API and using python's Tweepy library. The file twitter_scraper.py shows the code on how I did it. Note that since I do not have a research account at Twitter I am limit at the amount of tweets I was able to gather.
+I obtained my data by using snscrape, which is a specialised scraper for social media platforms. Unlike the Twitter API snscrape has no scraping limit and can obain all tweets a user has ever sent.
 
 My work is divided into two notebooks:
 
