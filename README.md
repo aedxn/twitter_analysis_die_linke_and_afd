@@ -7,13 +7,13 @@ I obtained my data by using snscrape, which is a specialised scraper for social 
 
 My work is divided into two notebooks:
 
-1. tweets_over_time_analysis, which includes visualisation of tweets over time
+1. tweets_over_time_analysis, 
+* I visualise tweets over time
+* I create heatmaps to answer which party spends the most time on their phone instead of listening during Bundestags meetings
+
 2. linke_afd_analysis
-
-The second notebook inlcudes work on:
-
-1. The hashtags and topics of both parties
-2. Word clouds 
-3. Left and right wing supervised learning classifier
+* The hashtags and topics of both parties
+* Word clouds 
+* Left and right wing supervised learning classifier
 
 For the my classification model I used a Naive Bayes model which allows me to predict whether a tweet is about a left win topic (die Linke) or a right win topic (AfD).
